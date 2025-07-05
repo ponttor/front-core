@@ -1,5 +1,6 @@
 {
   "about": "About us",
   "mainPage": "Main page",
-  "aboutLink": "/about"
+  "aboutLink": "/about",
+  "login": "Login"
 }

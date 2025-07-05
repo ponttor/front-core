@@ -11,7 +11,7 @@ import MainIcon from 'shared/assets/icons/main.svg';
 import cls from './Sidebar.module.scss';
 
 interface SidebarProps {
-    className?: string;
+  className?: string;
 }
 
 export const Sidebar = ({ className }: SidebarProps) => {
@@ -19,14 +19,11 @@ export const Sidebar = ({ className }: SidebarProps) => {
   const { t } = useTranslation('sidebar');
 
   const onToggle = () => {
-    setCollapsed((prev) => !prev);
+    setCollapsed(prev => !prev);
   };
 
   return (
-    <div
-      data-testid="sidebar"
-      className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}
-    >
+    <div data-testid="sidebar" className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}>
       <Button
         data-testid="sidebar-toggle"
         onClick={onToggle}
@@ -38,33 +35,18 @@ export const Sidebar = ({ className }: SidebarProps) => {
         {collapsed ? '>' : '<'}
       </Button>
       <div className={cls.items}>
-        <AppLink
-          theme={AppLinkTheme.SECONDARY}
-          to={RoutePath.main}
-          className={cls.item}
-        >
+        <AppLink theme={AppLinkTheme.SECONDARY} to={RoutePath.main} className={cls.item}>
           <MainIcon className={cls.icon} />
-          <span className={cls.link}>
-            {t('Главная')}
-          </span>
+          <span className={cls.link}>{t('mainPage')}</span>
         </AppLink>
-        <AppLink
-          theme={AppLinkTheme.SECONDARY}
-          to={RoutePath.about}
-          className={cls.item}
-        >
+        <AppLink theme={AppLinkTheme.SECONDARY} to={RoutePath.about} className={cls.item}>
           <AboutIcon className={cls.icon} />
-          <span className={cls.link}>
-            {t('О сайте')}
-          </span>
+          <span className={cls.link}>{t('aboutPage')}</span>
         </AppLink>
       </div>
       <div className={cls.switchers}>
         <ThemeSwitcher />
-        <LangSwitcher
-          short={collapsed}
-          className={cls.lang}
-        />
+        <LangSwitcher short={collapsed} className={cls.lang} />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 {
   "about": "О сайте",
   "mainPage": "Главная страница",
-  "aboutLink": "/about"
+  "aboutLink": "/about",
+  "login": "Войти"
 }
