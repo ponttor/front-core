@@ -15,9 +15,9 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'i18next', 'react-hooks'],
   rules: {
-    'react/jsx-indent': [2, 4],
-    'react/jsx-indent-props': [2, 4],
-    indent: [2, 4],
+    'react/jsx-indent': [2, 2],
+    'react/jsx-indent-props': [2, 2],
+    indent: [2, 2],
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.tsx'] }],
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
@@ -42,6 +42,7 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 'off',
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
     'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
+    'react/jsx-one-expression-per-line': 'off',
   },
   globals: {
     __IS_DEV__: true,
