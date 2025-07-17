@@ -5,20 +5,19 @@ const initialState: CounterSchema = {
   value: 0,
 };
 
-export const CounterSlice = createSlice({
+export const counterSlice = createSlice({
   name: 'counter',
   initialState,
   reducers: {
-    increment: (state) => {
+    increment: state => {
       state.value += 1;
     },
-    decrement: (state) => {
+    decrement: state => {
       state.value -= 1;
     },
   },
 });
 
-export const { actions: counterActions } = CounterSlice;
-export const { reducer: counterReducer } = CounterSlice;
-
-export default CounterSlice.reducer;
+// Action creators are generated for each case reducer function
+export const { actions: counterActions } = counterSlice;
+export const { reducer: counterReducer } = counterSlice;
