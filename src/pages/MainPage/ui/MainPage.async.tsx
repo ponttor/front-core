@@ -3,7 +3,9 @@ import { lazy } from 'react';
 export const MainPageAsync = lazy(
   () => new Promise((resolve) => {
     // @ts-ignore
-    // ТАК В РЕАЛЬНЫХ ПРОЕКТАХ НЕ ДЕЛАТЬ!!!!! ДЕЛАЕМ ДЛЯ КУРСА!
+    // not for production use, just for demonstration
+    // Simulating a delay to mimic code splitting
+    // and loading the component asynchronously
     setTimeout(() => resolve(import('./MainPage')), 1500);
   }),
 );

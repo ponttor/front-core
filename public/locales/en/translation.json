@@ -1,6 +1,20 @@
 {
-  "translation": "Translate",
-  "mainPage": "Main page",
-  "language": "English",
-  "short_language": "en"
+  "TestExample": "Test example",
+  "Translate": "Translate",
+  "MainPage": "Main page",
+  "Language": "English",
+  "NewTranslation": "New translation",
+  "PageNotFound": "Page not found",
+  "UnexpectedError": "An unexpected error has occurred",
+  "ReloadPage": "Reload page",
+  "ThrowError": "Throw error",
+  "Main": "Main",
+  "About": "About us",
+  "Toggle": "Toggle",
+  "ShortLang": "En",
+  "Login": "Login",
+  "Increment": "Increment",
+  "Decrement": "Decrement",
+  "EnterUsername": "Enter username",
+  "EnterPassword": "Enter password"
 }

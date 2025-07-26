@@ -1,0 +1,20 @@
+{
+  "TestExample": "Testovací príklad",
+  "Translate": "Preklad",
+  "MainPage": "Hlavná stránka",
+  "Language": "Slovenčina",
+  "NewTranslation": "Nový preklad",
+  "PageNotFound": "Stránka nebola nájdená",
+  "UnexpectedError": "Vyskytla sa neočakávaná chyba",
+  "ReloadPage": "Obnoviť stránku",
+  "ThrowError": "Vyhodiť chybu",
+  "Main": "Domov",
+  "About": "O stránke",
+  "Toggle": "Prepnúť",
+  "ShortLang": "Sk",
+  "Login": "Prihlásiť sa",
+  "Increment": "Zvýšiť",
+  "Decrement": "Znížiť",
+  "EnterUsername": "Zadajte používateľské meno",
+  "EnterPassword": "Zadajte heslo"
+}
