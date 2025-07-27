@@ -1,4 +1,11 @@
 {
+  "AuthForm": {
+    "Title": "Prihlasovací formulár",
+    "InvalidCredentials": "Zadali ste nesprávne používateľské meno alebo heslo",
+    "UsernamePlaceholder": "Zadajte používateľské meno",
+    "PasswordPlaceholder": "Zadajte heslo",
+    "LoginButton": "Prihlásiť sa"
+  },
   "TestExample": "Testovací príklad",
   "Translate": "Preklad",
   "MainPage": "Hlavná stránka",
@@ -13,6 +20,7 @@
   "Toggle": "Prepnúť",
   "ShortLang": "Sk",
   "Login": "Prihlásiť sa",
+  "Logout": "Odhlásiť sa",
   "Increment": "Zvýšiť",
   "Decrement": "Znížiť",
   "EnterUsername": "Zadajte používateľské meno",

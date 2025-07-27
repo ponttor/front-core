@@ -1,4 +1,11 @@
 {
+  "AuthForm": {
+    "Title": "Authorization form",
+    "InvalidCredentials": "You have entered an invalid username or password",
+    "UsernamePlaceholder": "Enter username",
+    "PasswordPlaceholder": "Enter password",
+    "LoginButton": "Login"
+  },
   "TestExample": "Test example",
   "Translate": "Translate",
   "MainPage": "Main page",
@@ -13,6 +20,7 @@
   "Toggle": "Toggle",
   "ShortLang": "En",
   "Login": "Login",
+  "Logout": "Logout",
   "Increment": "Increment",
   "Decrement": "Decrement",
   "EnterUsername": "Enter username",
